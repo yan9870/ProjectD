@@ -1,20 +1,7 @@
-let slide = 0;
-let line = document.getElementsByClassName('line')[0];
-
-function next(n) {
-
-  if (n == 1) {
-    if (slide == -1828) {
-      slide = 914;
-    }
-    slide = slide - 914;
-    line.style.left = slide + 'px';
-  }
-  if (n == 0) {
-    if (slide == 0) {
-      slide = -2742;
-    }
-    slide = slide + 914;
-    line.style.left = slide + 'px';
-  }
-}
+$(document).ready(function() {
+  $('.slider').slick({
+    // <i class="fas fa-chevron-left"></i>
+    prevArrow: '<button type="button" class="slick-prev slick-arrow"><i class="fas fa-chevron-left"></i></button>',
+    nextArrow: '<button type="button" class="slick-next slick-arrow"><i class="fas fa-chevron-right"></i></button>'
+  });
+});

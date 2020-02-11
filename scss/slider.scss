@@ -2,13 +2,18 @@
 
 .slick-slider {
   overflow: hidden;
+
 }
 /* Слайдер запущен */
 
-.slick-slider.slick-initialized {}
+.slick-slider.slick-initialized {
+
+}
 /* Слайдер с точками */
 
-.slick-slider.slick-dotted {}
+.slick-slider.slick-dotted {
+
+}
 /* Ограничивающая оболочка */
 
 .slick-list {
@@ -20,10 +25,13 @@
   display: grid;
   grid-auto-flow: column;
 
+
 }
 /* Слайд */
 
-.slick-slide {}
+.slick-slide {
+
+}
 /* Слайд активный (показывается) */
 
 .slick-slide.slick-active {}

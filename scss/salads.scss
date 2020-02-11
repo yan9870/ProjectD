@@ -1,0 +1,169 @@
+.salads {
+  background-image: url("../images/bg.jpg");
+  background-repeat: round;
+  min-height: 875px;
+  display: grid;
+  position: relative;
+  height: 100%;
+  & .salads-title{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 40px;
+  }
+  & .salads-text{
+    text-align: center;
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    line-height: 30px;
+  }
+}
+
+.salads-slider {
+  // padding-left: 30px;
+  width: 1140px;
+  // width: 60%;
+  padding-top: 70px;
+  margin: 0 auto;
+  padding-right: 30px;
+}
+
+.salads-slider__items {
+  display: grid;
+  grid-template-rows: repeat(4, max-content);
+
+  & img {
+    width: 265px;
+  }
+}
+
+.salads-desc {
+  background-color: white;
+  width: 265px;
+
+  & h1 {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  & p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 28px;
+    padding-bottom: 25px;
+  }
+}
+
+.salads-composition {
+  background-color: #f2f2f2;
+  width: 265px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  & .first-word {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  & p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+  }
+}
+
+.salads-button {
+  & .btn {
+    width: 265px;
+    height: 46px;
+    background-color: #c59d5f;
+    border: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+
+    & .fa-check {
+      padding-right: 8px;
+    }
+  }
+}
+
+.salads-slider .slick-arrow {
+  position: absolute;
+  top: 510px;
+  z-index: 10;
+  border: none;
+  transition: 0.3s;
+}
+
+.salads-slider .slick-arrow.slick-prev {
+  left: 250px;
+  color: #6d6764;
+  font-size: 30px;
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  background: none;
+  padding-right: 10px;
+  padding-top: 3px;
+
+  &:hover {
+    background-color: #ede7de;
+    opacity: 0.35;
+  }
+}
+
+.salads-slider .slick-arrow.slick-next {
+  right: 300px;
+  color: #6d6764;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: none;
+  // padding-left: -20px;
+  padding-top: 3px;
+
+  &:hover {
+    background-color: #ede7de;
+    opacity: 0.35;
+  }
+}
+
+.salads-slider .slick-dots {
+  display: grid;
+  justify-content: center;
+  grid-auto-flow: column;
+  padding-top: 66px;
+}
+
+.salads-slider .slick-dots li button {
+  border: none;
+  background: none;
+  width: 15px;
+  height: 15px;
+}
+
+.salads-slider .slick-dots li {
+  font-size: 0;
+  border-radius: 100%;
+  background-color: #685a52;
+  margin-right: 8px;
+}
+
+.salads-slider .slick-dots li.slick-active {
+  background-color: #917044;
+}

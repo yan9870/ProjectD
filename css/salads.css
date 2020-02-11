@@ -1,0 +1,7 @@
+.salads {
+  background-image: url("../images/bg.jpg");
+  background-repeat: round;
+  min-height: 860px;
+  display: grid;
+  height: 100%;
+}

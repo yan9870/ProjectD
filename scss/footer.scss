@@ -1,0 +1,224 @@
+.footer {
+  background-image: url("../images/bg4.jpg");
+  background-repeat: round;
+  display: grid;
+  width: 100%;
+  height: 510px;
+  grid-template-columns: repeat(4, max-content);
+  justify-content: center;
+  align-content: center;
+  grid-gap: 66px;
+}
+
+.footer__contacts {
+  display: grid;
+  grid-template-rows: repeat(5, max-content);
+  color: white;
+}
+
+.footer__contacts__title {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 35px;
+}
+
+.footer__contacts__subtitle {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #535353;
+  line-height: 20px;
+  padding-bottom: 35px;
+}
+
+.footer__contacts__email {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  padding-bottom: 22px;
+
+  & .fa-envelope {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+}
+
+.footer__contacts__phone {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding-bottom: 22px;
+
+  & .fa-phone-alt {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+}
+
+.footer__contacts__adres {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+
+  & .fa-map-marker-alt {
+    font-size: 12px;
+    padding-right: 10px;
+  }
+}
+
+.footer__order {
+  display: grid;
+  grid-template-rows: repeat(3, max-content);
+}
+
+.footer__order__title {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  padding-bottom: 35px;
+  color: white;
+}
+
+.footer__order__navigation {
+  display: grid;
+  grid-template-rows: repeat(4,max-content);
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12.5px;
+  transition: 0.2s;
+  letter-spacing: 0.7px;
+  opacity: 0.90;
+}
+
+.navigation__item {
+  // text-align: left;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  grid-auto-flow: column;
+  // align-items: start;
+  transition: 0.3s;
+  padding-bottom: 25px;
+
+  &:hover {
+    text-decoration: none;
+    color: #94774a;
+  }
+
+  &:hover .navigation__icon {
+    background-color: #94774a;
+    color: #291f10;
+  }
+
+  & .navigation__icon {
+    transition: 0.3s;
+    margin-right: 7px;
+    color: #68635e;
+    font-size: 12px;
+    padding: 4.5px 7px;
+    border-radius: 100%;
+  }
+}
+
+.footer__btn {
+  font-size: 13px;
+  width: 180px;
+  height: 42px;
+}
+
+.footer__gallery-instagram {
+  display: grid;
+  grid-template-rows: repeat(2,max-content);
+}
+
+.footer__gallery-instagram__title {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 34px;
+}
+
+.footer__gallery-instagram__images {
+  display: grid;
+  grid-template-columns: repeat(4,max-content);
+  grid-template-rows: repeat(3,max-content);
+  grid-gap: 8px;
+}
+
+.footer__social-network__title {
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  color: white;
+  padding-bottom: 34px;
+}
+
+.footer__social-network__navigation {
+  display: grid;
+  grid-template-rows: repeat(4,max-content);
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  font-size: 12.5px;
+  transition: 0.2s;
+  letter-spacing: 0.7px;
+  opacity: 0.90;
+}
+
+.navigation__item1 {
+  // text-align: left;
+  color: white;
+  display: grid;
+  align-items: center;
+  justify-content: start;
+  grid-auto-flow: column;
+  // align-items: start;
+  transition: 0.3s;
+  padding-bottom: 25px;
+
+  & .navigation__icon {
+    transition: 0.3s;
+    margin-right: 7px;
+    color: #68635e;
+    font-size: 12px;
+    padding: 4.5px 7px;
+    border-radius: 100%;
+  }
+
+  & .fa-facebook-f {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 7px 10.5px;
+    border-radius: 100%;
+    background-color: #94774a;
+  }
+  & .fa-twitter {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 6.5px 7.5px;
+    border-radius: 100%;
+    background-color: #94774a;
+  }
+  & .fa-vk {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 6.5px 6.5px;
+    border-radius: 100%;
+    background-color: #94774a;
+  }
+  & .fa-linkedin-in {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 6.5px 8.5px;
+    border-radius: 100%;
+    background-color: #94774a;
+  }
+}

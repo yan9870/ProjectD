@@ -1091,3 +1091,79 @@ textarea {
   width: 457px;
   height: 653px;
 }
+
+.price-order {
+  display: grid;
+  grid-template-rows: repeat(8, -webkit-max-content);
+  grid-template-rows: repeat(8, max-content);
+  justify-items: center;
+}
+
+.prise-order__title {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 31px;
+  font-weight: bold;
+  padding-bottom: 55px;
+  padding-top: 80px;
+}
+.prise-order__title span {
+  color: #c59d5f;
+}
+
+.prise-order__title2 {
+  padding-top: 40px;
+}
+
+.price-order__text {
+  color: white;
+  font-family: "PT Sans", sans-serif;
+  font-size: 15px;
+  padding-top: 10px;
+  margin: 0;
+  grid-gap: 0;
+  padding-bottom: 30px;
+}
+.price-order__text .fa-times {
+  background-color: red;
+  border-radius: 100%;
+  width: 16px;
+  height: 17px;
+  margin-right: 11px;
+  text-align: center;
+}
+
+.before-line {
+  border-top: 1px solid #515151;
+  width: 351px;
+  margin-top: 25px;
+}
+
+.btn1 {
+  width: 165px;
+  height: 46px;
+  background-color: transparent;
+  text-decoration: underline;
+  border: none;
+  color: #888888;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btn1 .fa-times {
+  padding-right: 8px;
+}
+
+.btn2 {
+  width: 165px;
+  height: 46px;
+  background-color: #c59d5f;
+  border: none;
+  color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+.btn2 .fa-check {
+  padding-right: 8px;
+}
